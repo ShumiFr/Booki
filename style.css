@@ -1,0 +1,66 @@
+* {
+    max-width: 1400px;
+    box-sizing: border-box;
+    font-family: "Raleway";
+    margin: 0;
+    padding: 0;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.header .active {
+    color: #0065FC;
+    border-top-color: #0065FC;
+    border-top: 2px;
+}
+
+.activité {
+    margin-left: 9px;
+}
+
+.activité:hover {
+    text-decoration: none;
+    color: #0065FC;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hébergements {
+    margin-right: 9px;
+}
+
+.logo {
+    margin-top: 44px;
+    margin-left: 55px;
+}
+
+.logo img {
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
+
+.nav {
+    padding-top: 48px;
+    margin-right: 77px;
+}
+
+.nav a {
+    padding: 46px 24.5px;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #0065FC;
+    border-top-color: #0065FC;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
+
+
