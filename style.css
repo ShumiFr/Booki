@@ -1,5 +1,4 @@
 * {
-    max-width: 1400px;
     box-sizing: border-box;
     font-family: "Raleway";
     font-size: 16px;
@@ -22,6 +21,34 @@ a {
     color: #0065FC;
 }
 
+.animaux {
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    width: 226px;
+    height: 50px;
+    left: 730px;
+    top: 280px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.animaux i {
+    font-size: 24px;
+}
+
+body {
+    max-width: 1400px;
+}
+
 #champs {
     width: 147px;
     font-size: 18px;
@@ -33,6 +60,93 @@ a {
 
 #champs:focus {
     outline: none;
+}
+
+#info i {
+    display: inline-block;
+    position: relative;
+    padding: 7px 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    margin-right: 11px;
+    font-size: 10px;
+    color: #0065FC;
+}
+
+.economique {
+    display: flex;
+    box-sizing: border-box;
+    padding: 4px 20px;
+    position: absolute;
+    width: 175px;
+    height: 48px;
+    left: 140px;
+    top: 280px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.economique i {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+}
+
+.familial {
+    display: flex;
+    box-sizing: border-box;
+    padding: 4px 20px;
+    position: absolute;
+    width: 136px;
+    height: 48px;
+    left: 350px;
+    top: 280px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.familial i {
+    font-size: 22px;
+}
+
+.filtres {
+    display: flex;
+}
+
+.filtres i {
+    color: #0065FC;
+    padding-right: 10px;
+}
+
+.filtres h3 {
+    position: absolute;
+    width: 54px;
+    height: 21px;
+    left: 62px;
+    top: 294px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.filtres button:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
 }
 
 .formulaire {
@@ -74,6 +188,18 @@ h1 {
     height: 49px;
 }
 
+.infobar {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 450px;
+    height: 24px;
+    left: 59px;
+    top: 365px;
+    font-size: 16px;
+    align-items: center;
+}
+
 .logo {
     margin-top: 44px;
     margin-left: 55px;
@@ -107,7 +233,8 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 15px 16px;
+    text-align: center;
+    padding: 15px 15px;
     gap: 10px;
     position: absolute;
     width: 132px;
@@ -119,14 +246,36 @@ h1 {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21.13px;
     cursor: pointer;
 }
 
-section {
+.romantique {
+    display: flex;
+    box-sizing: border-box;
+    padding: 4px 20px;
+    position: absolute;
+    width: 172px;
+    height: 48px;
+    left: 525px;
+    top: 280px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.romantique i {
+    font-size: 18px;
+}
+
+.titre {
     margin-left: 55px;
 }
 
-section h1 {
+.titre h1 {
     margin-bottom: 8px;
 }
