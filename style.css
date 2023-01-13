@@ -293,7 +293,7 @@ section ul i {
     font-size: 18px;
 }
   
-.hebergements-populaires a figure {
+.hebergements-populaires a .figure {
     margin-bottom: 32px;
     width: auto;
     height: 150px;
@@ -511,7 +511,7 @@ footer ul li {
       border-radius: initial;
     }
   
-    .hebergements-populaires a figure {
+    .hebergements-populaires a .figure {
       margin-bottom: 16px;
     }
   
